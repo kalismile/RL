@@ -17,5 +17,6 @@ a1=np.arange(1,10).reshape(3,3)
 a2=np.arange(10,19).reshape(3,3)
 b1=tf.constant(a1)
 b2=tf.constant(a2)
-print(tf.matmul(b1,b2))
+for i in range(1000):
+    print(tf.matmul(b1,b2))
 
