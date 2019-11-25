@@ -23,13 +23,13 @@ def main():
     #     env.step(keys)
     #     env.render()
 
-    ##########---------main RL program--------------
-    # env=retro.make(game='SuperMarioBros-Nes',record='.')
-    # obv=env.reset()
-    # for i in range(10000):
-    #     obs,rew,done,info=env.step(env.action_space.sample())
-    #     env.render()
-    # env.close()
+    #########---------main RL program--------------
+    env=retro.make(game='SuperMarioBros-Nes',record='.')
+    obv=env.reset()
+    for i in range(10000):
+        obs,rew,done,info=env.step(env.action_space.sample())
+        env.render()
+    env.close()
 
 
 if __name__=="__main__":
