@@ -8,7 +8,11 @@ tf.test.gpu_device_name()
 from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
 print('GPU is there',tf.test.is_gpu_available())
+<<<<<<< HEAD
 print('\r\n\r\n\r\n888888888888888888888888=')
+=======
+print('\n\r\n\r\n\r88888888888888888===')
+>>>>>>> 785846e52bf49937386cecab14d813447f9748f2
 
 # env=gym.make('CartPole-v0')
 # env.reset()
